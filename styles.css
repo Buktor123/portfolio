@@ -1,0 +1,30 @@
+.header {
+    background-image: url(/Background.png);
+    background-repeat: no-repeat; background-size: cover;
+}
+.header__container {
+    position: relative;
+}
+.header__container__img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.header__container__img--opacity {
+    opacity: 0.4;
+}
+.item { 
+    color: #ffffff; z-index: 123; text-align: center;
+}
+section {
+    text-align: center; color: black;
+}
+
+.section__skills {
+    background-color: #c66c49; opacity: 40%;
+}
+
+footer {
+    background-color: #c66c49; opacity: 40%;
+}

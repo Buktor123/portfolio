@@ -1,30 +1,249 @@
+body {
+    font-family:  'Libre Franklin', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+footer, section {
+    padding: 25px 29px 20px 33px;
+}
+
+footer h1, section h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 19px;
+}
+
+section h2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 15px;
+    
+}
+
+section p {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 15px;
+}
+/* -------------------------------------------------- */
+
+
+
 .header {
     background-image: url(/Background.png);
     background-repeat: no-repeat; background-size: cover;
-}
-.header__container {
+    min-height: 275px;
     position: relative;
 }
-.header__container__img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 1;
-}
-.header__container__img--opacity {
-    opacity: 0.4;
-}
-.item { 
-    color: #ffffff; z-index: 123; text-align: center;
-}
-section {
-    text-align: center; color: black;
+
+.header__inner {
+    text-align: center;
+    padding-top: 36px;
+    color: #ffffff;
+    font-weight: 700px;
+    font-style: normal;
+    line-height: 29px;
 }
 
-.section__skills {
-    background-color: #c66c49; opacity: 40%;
+.header__title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.header__subtitle {
+    margin-top: 50px;
+    margin-bottom: 13px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 24 px;
+    font-size: 20px;
+}
+
+.header__penultimate {
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.header__latest {
+    padding-top: 41px;
+    font-weight: lighter;
+    font-size: 13px;
+    line-height: 16px;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 24px;
+    height: 24px;
+    background: none;
+    position:absolute;
+    top: 39px;
+    left: 34px;
+    padding: 0;
+    border: none;
+}
+
+.header__menu__line {
+    background-color: #FFFFFF;
+    height: 2px ;
+    width: 100%;    
+}
+
+.about {
+    
+}
+
+.about__discription {
+    text-align: justify;
+}
+
+.skills {
+    background-color: #fffaf2;
+}
+
+.skills h1 {
+    margin-bottom: 25px;
+}
+
+.skills__avater {
+    display: block;
+    margin: 0 auto 26px;
+}
+
+.skills__table {}
+.skills__table tr { 
+    font-size: 12px;
+}
+
+.skills__table td {
+    padding-bottom: 20px;
+
+}
+
+.skills__table tr:first-child td {
+    padding-bottom: 35px;
+}
+
+.skills__table td:nth-child(1) {
+    font-weight: 600;
+    padding-right: 16px;
+}
+
+
+meter { 
+    width: 100%;
+
+}
+meter::-webkit-meter-optimum-value {
+    background-color: #C66C49;
+}
+meter::-webkit-meter-bar {
+    border-radius: 0px;
+    background-color: #F5D6AB;
+    height: 18px;
+    border: none;
+}
+
+.portfolio {}
+.portfolio p {
+    text-align: center;
+}
+
+.portfolio__inner {
+    display: flex;
+    gap: 15px;
+    
+}
+.portfolio__col {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.portfolio__col img {
+    gap: 15px;
+    width: 100%;
 }
 
 footer {
-    background-color: #c66c49; opacity: 40%;
+    background-color: #fffaf2;
+    position: relative;
+}
+
+.footer__inner {
+    display: flex;
+    gap: 15px;
+    
+}
+.footer__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__list li {
+    width: 50%;
+}
+
+
+.contacts {
+    text-align: left;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer li {
+    list-style-type: none;
+    padding-bottom: 19px;
+}
+
+.chevronup {
+    display: flex;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background: none;
+    position:absolute;
+    bottom: 58px;
+    right: 32px;
+    padding: 0;
+    border: none;
+}
+
+.chevronup__arrow {
+    display: block;
+    border: 2px solid #000000;
+    border-left: none;
+    border-bottom: none;
+    height: 12px;
+    width: 12px;
+    transform: rotate(-45deg);    
+}
+
+.contacts {
+    margin-top: 30px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.contacts p {
+    font-size: 12px;
+    margin-top: 7px;
+    margin-bottom: 50px;
 }
